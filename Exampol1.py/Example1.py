@@ -8,6 +8,8 @@ import random
 random_number = random.randint (1,10)
 print(random_number)
 
+print("---------------------------------------------------------")
+
 for i in range(0,10):
     random_number = random.randrange (20, 10, 5)
     print(random_number)
